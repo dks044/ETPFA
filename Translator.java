@@ -87,6 +87,7 @@ public class Test {
 			//TODO:"액세사리를 착용하지 않고를 마지막에" 
 			sb.append("An Elderly woman is taking a position ; ");//기본시작 (청년여자) <-성별에따라 알아서 바꾸면 됨.
 			
+			//포즈 번역 캡션
 			String pose_num = str.split("\\s+")[0];
 			Integer pose_temp = Integer.parseInt(pose_num);
 			sb.append(pose_map.get(pose_temp));
